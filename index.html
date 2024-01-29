@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Task</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="index.js" type="module"></script>
+		<script src="task/task.js" type="module"></script>
+	</head>
+	<body>
+		<section>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-8 col-lg-8 col-xl-6">
+						<div class="row">
+							<div class="col text-center">
+								<h1>Login</h1>
+							</div>
+						</div>
+						<form action="" id="login-form">
+							<div class="row align-items-center mt-4">
+								<div class="col">
+									<input
+										type="email"
+										class="form-control"
+										name="user-email"
+										placeholder="Email"
+										required
+									/>
+								</div>
+							</div>
+							<div class="row align-items-center mt-4">
+								<div class="col">
+									<input
+										type="password"
+										class="form-control"
+										name="user-password"
+										placeholder="Password"
+										required
+									/>
+								</div>
+							</div>
+							<div class="row justify-content-start mt-4">
+								<div class="col">
+									<button class="btn btn-primary mt-4">Login</button>
+								</div>
+							</div>
+							<p id="form-message"></p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
